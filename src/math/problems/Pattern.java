@@ -8,8 +8,23 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
 
 
+		int n = 100;
+		for (int i = 1; i <= 100; i++) {
+			if (n > 90) {
+				System.out.print(n + " ");
+				n--;
+			} else if (n > 70) {
+				System.out.print(n + " ");
+				n = n - 2;
+			} else if (n > 40) {
+				System.out.print(n + " ");
+				n = n - 3;
+			} else if (n > 30) {
+				System.out.print(n + " ");
+				n = n - 4;
+			}
+		}
 	}
 }
