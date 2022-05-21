@@ -12,7 +12,7 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
-		primeNumber(50);
+		primeNumber(1000000);
 	}
 
 	public static int primeNumber(int maxNumber) {
