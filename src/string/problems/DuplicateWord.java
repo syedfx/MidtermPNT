@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class DuplicateWord {
+
     public static void main(String[] args) {
         /*
          * Write a java program to find the duplicate words and their number of occurrences in the string.
@@ -49,5 +50,4 @@ public class DuplicateWord {
         int averageWordLength = (int)(totalChars/wor);
         System.out.println("Average length of the sentence is: "+averageWordLength);
     }
-
 }
